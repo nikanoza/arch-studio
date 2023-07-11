@@ -4,7 +4,7 @@ import { Logo, Hamburger } from "../svg";
 const Header = () => {
   return (
     <HeaderElement>
-      <Logo />
+      <Logo dark={true} />
       <Hamburger />
     </HeaderElement>
   );
