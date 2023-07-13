@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const Close = () => {
+const Close: React.FC<{ clickHandler: () => void }> = ({ clickHandler }) => {
   return (
-    <Svg>
+    <Svg onClick={clickHandler}>
       <path
         fill="#1B1D23"
         fillRule="evenodd"
