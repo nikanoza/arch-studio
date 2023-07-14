@@ -35,7 +35,7 @@ type WrapperProps = {
 };
 
 const Wrapper = styled.div(
-  ({ mobile, tablet, desktop }: WrapperProps) => css`
+  ({ mobile }: WrapperProps) => css`
     width: 100%;
     height: fit-content;
     background-image: url(${mobile});
