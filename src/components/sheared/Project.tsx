@@ -17,7 +17,7 @@ const Project: React.FC<PropsType> = ({
   return (
     <Wrapper mobile={mobile} tablet={tablet} desktop={desktop}>
       <TextsBox>
-        <Title>Project Del Sol</Title>
+        <Title>{title}</Title>
         <Link to="/portfolio" style={{ textDecoration: "none" }}>
           <Description>View All Projects</Description>
         </Link>
